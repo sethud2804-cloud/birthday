@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Suji Maa 💜🎀</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&display=swap');
+:root{--deep:#24103e;--purple:#7044a5;--lav:#d9c4ff;--pink:#ffb9df;--white:#fffaff}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:'DM Sans',sans-serif;color:var(--white);background:radial-gradient(ellipse at top,#633e8c 0,#2a1647 55%,#170c29 100%);overflow-x:hidden}
+button{font:inherit;cursor:pointer;border:0}
+#sky{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.floaty{position:absolute;bottom:-50px;opacity:.6;animation:rise linear infinite;filter:drop-shadow(0 0 7px #e4c5ff)}
+@keyframes rise{to{transform:translateY(-115vh) rotate(360deg);opacity:0}}
+.star{position:absolute;color:#fff0c8;animation:twinkle 2s infinite alternate}
+@keyframes twinkle{to{opacity:.25;transform:scale(.7)}}
+.music{position:fixed;top:14px;right:14px;z-index:5;background:#ffffff20;border:1px solid #ffffff50;color:white;border-radius:999px;padding:10px 14px;backdrop-filter:blur(8px)}
+.wrap{position:relative;z-index:1;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:76px 16px 30px}
+.slide{display:none;width:min(780px,100%);text-align:center;animation:appear .7s ease both}
+.slide.active{display:block}
+@keyframes appear{from{opacity:0;transform:translateY(18px) scale(.98)}to{opacity:1;transform:none}}
+.card{background:linear-gradient(145deg,#ffffff17,#ffffff08);border:1px solid #ffffff35;box-shadow:0 20px 70px #09031470,inset 0 1px #ffffff24;backdrop-filter:blur(15px);border-radius:30px;padding:clamp(22px,5vw,48px);position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 10% 5%,#e3baff20,transparent 35%);pointer-events:none}
+.kicker{font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#e9d6ff}
+h1,h2,.script{font-family:'Dancing Script',cursive;font-weight:700}
+h1{font-size:clamp(2.8rem,8vw,5.3rem);line-height:1.04;margin:15px 0;color:#fff4ff;text-shadow:0 0 24px #e8baff75}
+h2{font-size:clamp(2.2rem,6vw,3.5rem);margin:8px 0 18px}
+p{line-height:1.8;color:#f5eafa}
+.cake{font-size:5rem;margin:12px 0;filter:drop-shadow(0 8px 16px #160824)}
+.candle{display:inline-block;animation:flicker .8s infinite alternate;transform-origin:bottom}
+@keyframes flicker{to{transform:rotate(4deg) scale(1.05);filter:brightness(1.4)}}
+.btn{color:#4b2868;background:linear-gradient(135deg,#ffe1f3,#d8c1ff);border-radius:999px;padding:13px 22px;font-weight:700;box-shadow:0 8px 24px #d9a7ff32;transition:transform .2s,box-shadow .2s;margin:7px}
+.btn:hover{transform:translateY(-3px);box-shadow:0 12px 30px #e8b7ff60}
+.btn.secondary{color:#fff;background:#ffffff18;border:1px solid #ffffff40}
+.bow{font-size:2rem}
+.quote{font-family:'Dancing Script',cursive;font-size:clamp(1.5rem,4vw,2.25rem);line-height:1.55;color:#fff4ff;min-height:150px}
+.subtle{font-size:.9rem;color:#dfcbea}
+.game-tabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:18px 0}
+.game-tabs button{padding:10px 14px;border-radius:999px;background:#ffffff12;border:1px solid #ffffff30;color:white}
+.game-tabs button.selected{background:#e4caff;color:#3c2059}
+.game{display:none;padding:18px 0 4px}.game.selected{display:block}
+.playfield{height:230px;position:relative;border-radius:20px;background:#170d2c55;border:1px solid #ffffff25;overflow:hidden;margin:15px auto;max-width:500px}
+.heart-target{position:absolute;font-size:2rem;background:transparent;animation:bob 1s infinite alternate;filter:drop-shadow(0 0 8px #ff9fdc)}
+@keyframes bob{to{transform:translateY(-7px) rotate(12deg)}}
+.score{font-weight:700;color:#ffdaf0}
+.answer{display:block;margin:9px auto;max-width:420px;width:100%;padding:12px;border-radius:14px;background:#ffffff13;color:white;border:1px solid #ffffff35}
+.answer:hover{background:#ffffff25}
+.feedback{min-height:26px;color:#ffdbf0;font-weight:600;margin:10px}
+.gifts{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:22px 0}
+.gift{font-size:2.5rem;background:#ffffff12;border:1px solid #ffffff30;border-radius:18px;width:82px;height:82px;transition:.2s}
+.gift:hover{transform:translateY(-5px) rotate(-4deg)}
+.letter{text-align:left;max-width:610px;margin:0 auto;font-size:1rem;line-height:1.9}
+.letter p{margin:0 0 14px;opacity:0;animation:lineIn .7s ease forwards}
+.letter p:nth-child(1){animation-delay:.25s}.letter p:nth-child(2){animation-delay:.8s}.letter p:nth-child(3){animation-delay:1.35s}.letter p:nth-child(4){animation-delay:1.9s}.letter p:nth-child(5){animation-delay:2.45s}.letter p:nth-child(6){animation-delay:3s}.letter p:nth-child(7){animation-delay:3.55s}
+@keyframes lineIn{to{opacity:1}}
+#hugResult{display:none;margin:20px auto 0;font-family:'Dancing Script',cursive;font-size:clamp(1.8rem,5vw,2.8rem);animation:appear .6s ease}
+.bigheart{font-size:5rem;display:block;animation:heartbeat .7s infinite alternate}
+@keyframes heartbeat{to{transform:scale(1.18)}}
+.confetti{position:fixed;top:-20px;z-index:10;pointer-events:none;animation:confettiFall 3.2s linear forwards}
+@keyframes confettiFall{to{transform:translateY(110vh) rotate(800deg);opacity:.1}}
+.nav{margin-top:22px}.nav .btn{min-width:130px}
+footer{margin-top:22px;color:#cbb6df;font-size:.75rem}
+@media(max-width:500px){.card{border-radius:23px}.cake{font-size:4rem}.playfield{height:200px}.letter{font-size:.94rem}.music{font-size:.8rem;padding:8px 10px}}
+</style>
+</head>
+<body>
+<div id="sky"></div>
+<button class="music" id="musicBtn" aria-label="Toggle music">♫ Play soft music</button>
+<audio id="music" loop>
+  <!-- Optional: replace this source with a royalty-free audio file URL you have permission to use. -->
+</audio>
+<div class="wrap">
+<section class="slide active" id="slide1">
+  <div class="card">
+    <div class="kicker">A little birthday magic ✨</div>
+    <div class="bow">🎀 💜 🎀</div>
+    <h1>Happiest Birthday<br>Suji Maa 🎀</h1>
+    <p>A tiny universe of purple sparkles, made just for you.</p>
+    <div class="cake" aria-label="birthday cake">🎂<span class="candle">🕯️</span>✨</div>
+    <p class="subtle">Make a wish, birthday girl…</p>
+    <button class="btn" onclick="go(2)">Open Your Surprise 💌 ✨</button>
+  </div>
+  <footer>Made with a little shyness & lots of 💜</footer>
+</section>
+
+<section class="slide" id="slide2">
+  <div class="card">
+    <div class="kicker">A secret little confession 🦋</div>
+    <h2>Your Eyes, Your Smile ✨</h2>
+    <div class="bow">🦋 💜 ✨ 💜 🦋</div>
+    <div class="quote" id="typedQuote"></div>
+    <p class="subtle">Some people are just a little bit of magic. 🤍</p>
+    <button class="btn" onclick="go(3)">Hehe, One More Surprise? 🎀</button>
+  </div>
+  <div class="nav"><button class="btn secondary" onclick="go(1)">← Back</button></div>
+</section>
+
+<section class="slide" id="slide3">
+  <div class="card">
+    <div class="kicker">Your tiny purple arcade 🎮</div>
+    <h2>Let's Play, Suji Maa! 💜</h2>
+    <p>Three little games, just for you. Choose your adventure! 🎀</p>
+    <div class="game-tabs">
+      <button class="selected" onclick="pickGame('catch',this)">💕 Catch Hearts</button>
+      <button onclick="pickGame('quiz',this)">🫣 Little Quiz</button>
+      <button onclick="pickGame('find',this)">🔍 Hidden Heart</button>
+    </div>
+    <div class="game selected" id="game-catch">
+      <h3>Catch the Hearts 💕</h3>
+      <p>Tap as many hearts as you can in 15 seconds!</p>
+      <div class="score">Score: <span id="score">0</span> · Time: <span id="time">15</span>s</div>
+      <div class="playfield" id="playfield"><div class="subtle" style="padding-top:90px">Your hearts will appear here 💗</div></div>
+      <button class="btn" id="startCatch" onclick="startCatch()">Start Catching! 💞</button>
+      <div class="feedback" id="catchMsg"></div>
+    </div>
+    <div class="game" id="game-quiz">
+      <h3>How Well Do You Know Me? 🫣💌</h3>
+      <p id="question">If I could pick a perfect vibe, what would it be?</p>
+      <div id="answers">
+        <button class="answer" onclick="quizAnswer(0)">A) Purple sunsets and cute surprises 💜</button>
+        <button class="answer" onclick="quizAnswer(1)">B) A serious meeting about taxes 😭</button>
+        <button class="answer" onclick="quizAnswer(2)">C) Running away from all the butterflies 🦋</button>
+      </div>
+      <div class="feedback" id="quizMsg">No pressure—just pick what feels right! 🎀</div>
+      <button class="btn secondary" onclick="nextQuestion()">Next Question ➜</button>
+    </div>
+    <div class="game" id="game-find">
+      <h3>Find the Hidden Heart 💜🔍</h3>
+      <p>One of these gifts is hiding a tiny secret. Pick a box!</p>
+      <div class="gifts" id="gifts">
+        <button class="gift" onclick="openGift(0)">🎁</button><button class="gift" onclick="openGift(1)">🎁</button><button class="gift" onclick="openGift(2)">🎁</button><button class="gift" onclick="openGift(3)">🎁</button>
+      </div>
+      <div class="feedback" id="giftMsg">Choose your lucky gift! 🎀</div>
+      <button class="btn secondary" onclick="resetGifts()">Try again ↻</button>
+    </div>
+    <div class="nav"><button class="btn" onclick="go(4)">One Last Little Surprise, Crusheyy? 🥹💗</button></div>
+  </div>
+  <div class="nav"><button class="btn secondary" onclick="go(2)">← Back</button></div>
+</section>
+
+<section class="slide" id="slide4">
+  <div class="card">
+    <div class="kicker">A little message from my heart 💌</div>
+    <h2>For You, Suji Maa 💜</h2>
+    <div class="bow" style="margin-bottom:18px">🎀 ✨ 💜 ✨ 🎀</div>
+    <div class="letter">
+      <p><strong>Once you entered my life so unexpectedly, you slowly turned into one of my favourite people. 🥹💜</strong></p>
+      <p>With you, I've collected countless memories and moments that I'll always cherish. Even the simplest little moments with you have become special to me. 🎀✨</p>
+      <p>Whatever happens and whatever you do, you'll always be a special one to me, Crusheyy. 🫶🏻💗</p>
+      <p>I hope this beautiful bond of ours continues to grow, and I hope this little birthday surprise becomes an unforgettable memory for you.</p>
+      <p><strong>Happiest Birthday once again, Suji Maa! 🎂💜</strong></p>
+      <p>Stay the same, keep smiling that adorable smile, and never forget how special you are to me. 🎀🦋</p>
+      <p>With lots of love,<br><strong>Your secret admirer… maybe? 🤭💌💜</strong></p>
+    </div>
+    <button class="btn" id="hugBtn" onclick="sendHug()">Sending You the Biggest Virtual Hug! 🫂💜</button>
+    <div id="hugResult"><span class="bigheart">💜</span>You deserve all the happiness in the world, Suji Maa! 💜🎂🎀</div>
+  </div>
+  <div class="nav"><button class="btn secondary" onclick="go(3)">← Back to the games</button><button class="btn secondary" onclick="replay()">Replay from the beginning ↻</button></div>
+</section>
+</div>
+<script>
+const sky=document.getElementById('sky');
+const symbols=['💜','♡','✨','🎀','🦋','✦','💗'];
+for(let i=0;i<32;i++){const e=document.createElement('span');e.className='floaty';e.textContent=symbols[Math.floor(Math.random()*symbols.length)];e.style.left=Math.random()*100+'%';e.style.animationDuration=(9+Math.random()*15)+'s';e.style.animationDelay=(-Math.random()*20)+'s';e.style.fontSize=(13+Math.random()*18)+'px';sky.appendChild(e)}
+for(let i=0;i<28;i++){const e=document.createElement('span');e.className='star';e.textContent='✦';e.style.left=Math.random()*100+'%';e.style.top=Math.random()*100+'%';e.style.animationDelay=Math.random()*3+'s';e.style.fontSize=(8+Math.random()*13)+'px';sky.appendChild(e)}
+const quote="“I don't know what magic your eyes hold, or how your smile makes even an ordinary moment feel special. 🥹💜 Somehow, without even trying, you became someone my eyes search for and my heart secretly smiles about. 🎀✨”";
+let typingTimer;
+function typeQuote(){const el=document.getElementById('typedQuote');el.textContent='';let i=0;clearInterval(typingTimer);typingTimer=setInterval(()=>{el.textContent=quote.slice(0,++i);if(i>=quote.length)clearInterval(typingTimer)},28)}
+function go(n){document.querySelectorAll('.slide').forEach(s=>s.classList.remove('active'));document.getElementById('slide'+n).classList.add('active');if(n===2)typeQuote();window.scrollTo({top:0,behavior:'smooth'})}
+function replay(){document.getElementById('hugResult').style.display='none';document.getElementById('hugBtn').style.display='inline-block';go(1)}
+function pickGame(name,btn){document.querySelectorAll('.game').forEach(g=>g.classList.remove('selected'));document.getElementById('game-'+name).classList.add('selected');document.querySelectorAll('.game-tabs button').forEach(b=>b.classList.remove('selected'));btn.classList.add('selected')}
+let score=0,time=15,catchInterval=null,spawnInterval=null;
+function startCatch(){clearInterval(catchInterval);clearInterval(spawnInterval);score=0;time=15;document.getElementById('score').textContent=score;document.getElementById('time').textContent=time;document.getElementById('catchMsg').textContent='Go go go! 💕';const field=document.getElementById('playfield');field.innerHTML='';document.getElementById('startCatch').disabled=true;
+spawnInterval=setInterval(()=>{if(!document.getElementById('game-catch').classList.contains('selected'))return;const h=document.createElement('button');h.className='heart-target';h.textContent=['💜','💗','💖','💕'][Math.floor(Math.random()*4)];h.style.left=Math.random()*85+'%';h.style.top=Math.random()*75+'%';h.setAttribute('aria-label','catch heart');h.onclick=()=>{score++;document.getElementById('score').textContent=score;h.remove()};field.appendChild(h);setTimeout(()=>h.remove(),1400)},520);
+catchInterval=setInterval(()=>{time--;document.getElementById('time').textContent=time;if(time<=0){clearInterval(catchInterval);clearInterval(spawnInterval);document.getElementById('startCatch').disabled=false;document.getElementById('catchMsg').textContent=score>=10?`Yayyy! ${score} hearts caught! You're a heart-catching star! 💜✨`:`You caught ${score} hearts! Sending you a pocketful more! 💗`;field.innerHTML='<div style="padding-top:82px;font-size:2rem">🎀💜✨</div>'}},1000)}
+const questions=[
+{q:'If I could pick a perfect vibe, what would it be?',a:['Purple sunsets and cute surprises 💜','A serious meeting about taxes 😭','Running away from all the butterflies 🦋'],correct:0,feedback:['You get the vibe! ✨','Haha, not even close 😭','Those butterflies are staying, sorry 🦋']},
+{q:'What does this little website contain most of?',a:['Purple and affection 💜','Homework and spreadsheets 📊','A thousand angry pigeons 🐦'],correct:0,feedback:['Exactlyyy, you noticed! 🎀','Nooo, that would be tragic 😅','One pigeon may have applied for a role 🐦']},
+{q:'What should your birthday be full of?',a:['Happiness, hugs, and cake 🎂','Doing chores all day 🧹','Forgetting to make a wish 🌠'],correct:0,feedback:['The only correct answer! 💗','Absolutely not on your birthday!','Make a wish, Suji Maa! ✨']}
+];let qi=0;
+function renderQuestion(){const q=questions[qi];document.getElementById('question').textContent=q.q;document.getElementById('answers').innerHTML=q.a.map((a,i)=>`<button class="answer" onclick="quizAnswer(${i})">${a}</button>`).join('');document.getElementById('quizMsg').textContent=`Question ${qi+1} of ${questions.length} 🎀`}
+function quizAnswer(i){const q=questions[qi];document.getElementById('quizMsg').textContent=q.feedback[i];document.querySelectorAll('#answers button').forEach(b=>b.disabled=true)}
+function nextQuestion(){qi=(qi+1)%questions.length;renderQuestion()}
+let lucky=0;
+function resetGifts(){lucky=Math.floor(Math.random()*4);document.querySelectorAll('.gift').forEach(b=>{b.textContent='🎁';b.disabled=false});document.getElementById('giftMsg').textContent='Choose your lucky gift! 🎀'}
+function openGift(i){const buttons=document.querySelectorAll('.gift');if(i===lucky){buttons[i].textContent='💜';document.getElementById('giftMsg').textContent='Yayyy! You found my little heart! 💜🎀';buttons.forEach(b=>b.disabled=true);confetti(45)}else{buttons[i].textContent='🎀';buttons[i].disabled=true;document.getElementById('giftMsg').textContent='Not this one, cutie! Try another gift 🫣'}}resetGifts();renderQuestion();
+function confetti(n=80){const colors=['#ffc7e8','#d7b8ff','#fff2b5','#ffffff','#b8f0ff'];for(let i=0;i<n;i++){const e=document.createElement('span');e.className='confetti';e.textContent=Math.random()>.5?'✦':'♥';e.style.left=Math.random()*100+'vw';e.style.color=colors[Math.floor(Math.random()*colors.length)];e.style.fontSize=(10+Math.random()*16)+'px';e.style.animationDuration=(2+Math.random()*2)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),4500)}}
+function sendHug(){document.getElementById('hugResult').style.display='block';document.getElementById('hugBtn').style.display='none';confetti(120)}
+const music=document.getElementById('music');const musicBtn=document.getElementById('musicBtn');let audioCtx,oscillators=[],musicOn=false;
+musicBtn.addEventListener('click',()=>{if(musicOn){if(audioCtx)audioCtx.suspend();musicOn=false;musicBtn.textContent='♫ Play soft music';return}
+try{audioCtx=audioCtx||new(window.AudioContext||window.webkitAudioContext)();audioCtx.resume();if(!oscillators.length){[261.63,329.63,392,523.25].forEach((freq,i)=>{const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type='sine';o.frequency.value=freq;g.gain.value=.012/(i+1);o.connect(g);g.connect(audioCtx.destination);o.start();oscillators.push(o)})}musicOn=true;musicBtn.textContent='♫ Pause soft music'}catch(e){musicBtn.textContent='Music unavailable'}})
+</script>
+</body>
+</html>
